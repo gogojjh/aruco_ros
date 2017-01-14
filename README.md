@@ -19,9 +19,9 @@ The following are the steps to get started.
     f. $ sudo make install  
     The install location /usr/local should be remember for future use.
 	
-3. Download an aruco marker/ aApril tag and print it.
+3. Download an aruco marker/ April tag and print it.
 
-4. Follow the following steps
+4. Follow the following steps  
     a. $ cd catkin_ws/src  
     b. clone this repository  https://github.com/shashankvkt/aruco_ros  
     c. $ source /opt/ros/YOUR_DISTRIBUTION/setup.bash  
@@ -39,7 +39,7 @@ give the path of your calibration files accordingly
     b. Run the image_proc node as    $ ROS_NAMESPACE=stereo rosrun stereo_image_proc stereo_image_proc (change it accordingly for           monocular one) on another tab (Ctrl+Shift+T)  
     c. $ rosrun ros_aruco ros_aruco - on another tab
 	
-        Running this node will enable detection of marker and will print the centre and 'z' pose of it using.  
+        Running this node will enable detection of marker and will print the centre and 'z' pose of the tag.  
     d. If you want to get the depth from disparity of the marker using stereo camera, then on a new tab,  
 	
         i. $ cd catkin_ws/src/ros_aruco/src  
