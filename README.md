@@ -17,7 +17,7 @@ The following are the steps to get started.
     d. $ cmake ..  
     e. $ make  
     f. $ sudo make install  
-    The install location /usr/local should be remember for future use.
+    The install location /usr/local should be remembered for future use.
 	
 3. Download an aruco marker/ April tag and print it.
 
@@ -45,5 +45,9 @@ give the path of your calibration files accordingly
         i. $ cd catkin_ws/src/ros_aruco/src  
         ii. $ python ros_aruco_stereo.py  
         This command will get you the depth from disparity using the formula  Z = (f*T)/D,
-            where f = focal length, T = baseline, D=disparity and Z = depth. 
+            where f = focal length, T = baseline, D=disparity and Z = depth.  
+
+7. Lastly,the data of the pose of the marker and it's centre, is published as a ROS Topic, so that further development can be made using the data.  
+	a. /aruco/centre/pose - gives the centre of the marker  
+	b. /aruco/linear/pose - gives the orientation and pose of the marker w.r.t camera  
 
