@@ -23,7 +23,8 @@ The following are the steps to get started.
     d. $ cd ..  
     e. $ catkin_make --pkg ros_aruco -DARUCO_PATH=/usr/local  
 	
-5. If you are using a monocular / stereo camera for detection of markers clone the following repository in the catkin source directory - https://github.com/ayushgaud/usb_cam
+5. If you are using a monocular / stereo camera for detection of markers clone the following repository in the catkin source directory - https://github.com/ayushgaud/usb_cam  
+give the path of your calibration files accordingly
 
 6. Connect the camera to the usb port and run the following commands
 
