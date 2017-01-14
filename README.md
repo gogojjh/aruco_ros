@@ -4,6 +4,9 @@ The following are the steps to get started.
 
 ![screenshot from 2016-12-29 18 48 33](https://cloud.githubusercontent.com/assets/23419376/21954443/d77a9af2-da76-11e6-8343-2b3c6a384a44.png)
 
+![screenshot from 2017-01-14 16 33 13](https://cloud.githubusercontent.com/assets/23419376/21954468/7dffb10a-da77-11e6-9345-98427e3e175e.png)
+
+
 1. Download the aruco library from http://www.uco.es/investiga/grupos/ava/node/26 
     I've used the aruco library version of 2.0.14.  
 	
